@@ -1,12 +1,12 @@
 package Lib;
 import java.awt.*;
 import javax.swing.*;
-public class Checker{
+public class form1{
     JFrame f;
     Container cp ;
     JPanel table;
     JPanel gamePanel;
-    public Checker(){
+    public form1(){
         Initial();
         setComponent();
         Finally();
@@ -51,7 +51,7 @@ public class Checker{
         title.setAlignmentX(Component.CENTER_ALIGNMENT);
         timer.setAlignmentX(Component.CENTER_ALIGNMENT);
         s.setAlignmentX(Component.CENTER_ALIGNMENT);
-        gamePanel.setBorder(BorderFactory.createEmptyBorder(80, 0, 50, 0));
+        gamePanel.add(Box.createVerticalStrut(80));
         gamePanel.add(title);
         gamePanel.add(Box.createVerticalStrut(20));
         gamePanel.add(timer);

@@ -1,9 +1,9 @@
 import java.awt.*;
 import javax.swing.*;
-import Lib.Checker;
+import Lib.form1;
 
 public class Main {
     public static void main(String[] args) {
-        new Checker();
+        new form1();
     }
 }
