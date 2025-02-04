@@ -9,10 +9,10 @@ public class Checker{
     public Checker(){
         Initial();
         setComponent();
-        Finally() ;
+        Finally();
     }
     public void Initial(){
-        f = new JFrame("Checker");
+        f = new JFrame("Checkers");
         ImageIcon cat = new ImageIcon("./Img/Wowa.jpg");
         f.setIconImage(cat.getImage());
         cp = f.getContentPane();
@@ -42,7 +42,7 @@ public class Checker{
     }
     public void setGamePanel(){
         JLabel title = new JLabel("Game Panel.");
-        JLabel timer = new JLabel("Time Passed 00.00");
+        JLabel timer = new JLabel("Time Passed : 00.00");
         JButton s = new JButton("START");
         title.setFont(new Font("Arial", Font.BOLD,18));
         timer.setFont(new Font("Arial", Font.BOLD, 13));
